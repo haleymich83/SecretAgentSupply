@@ -1,3 +1,29 @@
 html{
+  font-size: 18px;
+  background-color: white;
+}
 
+body{
+  font-family: helvetica;
+  font-size: 1rem;
+  color: white;
+  line-height: 1.4em;
+  margin: auto;
+}
+
+header{
+  background-color: black;
+}
+
+header img{
+padding-left: 0.5rem;
+padding-right: 0.5rem;
+height: 1.5rem;
+}
+
+.company {
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+  display: flex;
+  align-content: center;
 }

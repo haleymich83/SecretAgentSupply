@@ -3,7 +3,7 @@
    display: none;
  }
 
- .product .ghide {
+ .product.ghide {
    display: none;
  }
 
@@ -25,6 +25,36 @@
   .menu {
     display: none;
   }
+}
+
+@media only screen and (max-width: 470px){
+  .product.whide{
+    display: none;
+  }
+
+  .new {
+    height: 15rem;
+  }
+  .intro{
+    padding: 1rem 2rem;
+    margin-top: 10rem;
+  }
+  .line1{
+    font-family: Helvetica;
+    font-size: 0.77rem;
+    font-weight: bold;
+  }
+  .line2{
+    font-family: Helvetica;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .info {
+    flex-direction: column;
+    align-items: center;
+  }
+
 }
 
 html{

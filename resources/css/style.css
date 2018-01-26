@@ -1,3 +1,7 @@
+@media only screen and () {
+  
+}
+
 html{
   font-size: 18px;
   background-color: white;
@@ -7,7 +11,6 @@ body{
   font-family: helvetica;
   font-size: 1rem;
   color: white;
-  line-height: 1.4em;
   margin: auto;
 }
 
@@ -21,9 +24,129 @@ padding-right: 0.5rem;
 height: 1.5rem;
 }
 
+footer{
+  background-color: black;
+  padding: 5rem 0;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
 .company {
   padding-top: 0.66rem;
   padding-bottom: 0.66rem;
   display: flex;
   align-content: center;
+}
+
+.container{
+  width: 960px;
+  margin: 0 auto;
+}
+
+.nav{
+  background-color: firebrick;
+  display: flex;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list span{
+  font-family: Helvetica;
+}
+
+.new {
+  background-image: url("../images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 25rem;
+  display: flex;
+  align-items: center;
+}
+
+.intro{
+  display: flex;
+  background-color: black;
+  flex-direction: column;
+  width: 20rem;
+  padding-left: 3rem;
+}
+
+.line1{
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 0.25rem;
+  margin-top: 2rem;
+}
+
+.line2{
+  font-family: Helvetica;
+  font-size:2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.content{
+  padding-top: 3rem;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.prod-img {
+  height: 9rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border:4px solid black;
+}
+
+.product img {
+  max-height: 9rem;
+  max-width: 8em;
+}
+
+.product .name {
+  background-color: black;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.info{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3rem;
+}
+
+.hours, .location{
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+.loc1, .ho1 {
+  background-color: black;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+.time, .coordinates {
+  color: black;
+  padding-bottom: 4rem;
 }

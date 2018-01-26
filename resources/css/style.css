@@ -1,5 +1,30 @@
-@media only screen and () {
-  
+@media only screen and (max-width: 1024px) {
+ .nomen {
+   display: none;
+ }
+
+ .product .ghide {
+   display: none;
+ }
+
+ .product{
+   width: 47%;
+ }
+
+ .menu{
+   margin: auto;
+ }
+
+.hours, .location{
+  width: 35%;
+}
+
+}
+
+@media only screen and (min-width: 1024px){
+  .menu {
+    display: none;
+  }
 }
 
 html{
